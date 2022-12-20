@@ -3,4 +3,4 @@
 - Considered transforming the dataset
 - Considered seasonal decomposition
 - Analyzed ACF and PACF to deduce lag order for SARIMAX model found m=4, 12 to be not meaningful
-- Found optimal lags and performed residual analysis( significant in F test Homogeneity stats models Breusch Pagan, significant in Durbin Warson serial autocorrelation, barley passes shapiro wilk normality)
+- Found optimal lags and performed residual analysis( significant in F test Homogeneity stats models Breusch Pagan, significant in Durbin Warson serial autocorrelation, barley passes shapiro wilk normality can be seen as approximately ~N(0,1) from kde plot  )
